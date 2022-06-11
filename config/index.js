@@ -1,16 +1,17 @@
 export const config = {
-  env: "prod",
+  env: "local",
   LOCAL_API_URL: "localhost:3000",
   API_URL: "odp-rarity.vercel.app",
-  COLLECTION_NAME: "OneDayPunks",
-  COLLECTION_TITLE: "One Day Punks",
-  COLLECTION_DESCRIPTION: '10k "One Day I\'ll Be A Punk"-punks.',
-  COLLECTION_IMG_LINK: "https://punkscape.xyz/og.png",
+  COLLECTION_NAME: "Caiman",
+  COLLECTION_TITLE: "Cai NFT Rarity Score",
+  COLLECTION_DESCRIPTION: "A NFT collection on Echelon Blockchain",
+  COLLECTION_IMG_LINK:
+    "https://caimancoin.com/wp-content/uploads/2022/06/logss.png",
   STARTING_INDEX: 0,
   CONTRACT: {
     // if you're not sure, set CONTRACT: {}, will remove opensea link
-    CHAIN: "ethereum", //possible values of ethereum, matic (polygin), klatyn, solana
-    ADDRESS: "0x5537d90a4a2dc9d9b37bab49b490cf67d4c54e91", //note: for solana these values change, so currently not supported
+    CHAIN: "ethereum",
+    ADDRESS: "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D", //note: for solana these values change, so currently not supported
   },
   WEIGHTS: {},
 };
