@@ -1,7 +1,7 @@
 export const config = {
   env: "prod",
   LOCAL_API_URL: "localhost:3000",
-  API_URL: "admirable-cranachan-ca8784.netlify.app",
+  API_URL: "https://cai-rarity.netlify.app/",
   COLLECTION_NAME: "Caiman",
   COLLECTION_TITLE: "Cai NFT Rarity Score",
   COLLECTION_DESCRIPTION: "A NFT collection on Echelon Blockchain",
